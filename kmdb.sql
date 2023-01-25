@@ -609,4 +609,5 @@ FROM Movies;
 
 
 -- The SQL statement for the cast output
+SELECT movie_title, actor_name, character_name FROM Casts;
 -- TODO!
