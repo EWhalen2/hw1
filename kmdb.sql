@@ -214,7 +214,7 @@ movie_title
 
 VALUES (
     "Warner Bros",
-    1,
+    2,
     "The Dark Knight"
 );
 
@@ -227,7 +227,7 @@ movie_title
 
 VALUES (
     "Warner Bros",
-    1,
+    3,
     "The Dark Knight Rises"
 );
 
@@ -598,8 +598,10 @@ VALUES (
 
 -- The SQL statement for the movies output
 -- TODO!
-SELECT movie_title, movie_year, movie_rating, movie_studio
-FROM Movies;
+
+SELECT Movies.movie_title, Movies.movie_year, Movies.movie_rating,
+Studios.movie_studio FROM Movies INNER JOIN Studios
+ON Movies.ID = Studios.movie_id;
 
 -- Prints a header for the cast output
 .print ""
@@ -609,5 +611,7 @@ FROM Movies;
 
 
 -- The SQL statement for the cast output
-SELECT movie_title, actor_name, character_name FROM Casts;
+--SELECT movie_title, actor_name, character_name FROM Casts;
+
+
 -- TODO!
