@@ -120,7 +120,8 @@ CREATE TABLE Movies (
 CREATE TABLE Studios (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   movie_studio TEXT,
-  movie_id INTEGER
+  movie_id INTEGER,
+  movie_title TEXT
 );
 
 CREATE TABLE Actors (
@@ -184,6 +185,18 @@ VALUES (
     2012
 );
 
+
+INSERT INTO Studios (
+movie_studio,
+movie_id,
+movie_title
+)
+
+VALUES (
+    "Warner Bros",
+    1,
+    "Batman Begins"
+);
 
 -- Prints a header for the movies output
 .print "Movies"
