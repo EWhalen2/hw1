@@ -134,6 +134,55 @@ CREATE TABLE Actors (
 -- Insert data into your database that reflects the sample data shown above
 -- Use hard-coded foreign key IDs when necessary
 -- TODO!
+INSERT INTO Movies (
+movie_title,
+movie_rating,
+movie_studio,
+studio_id,
+movie_year
+)
+
+VALUES (
+    "Batman Begins",
+    "PG-13",
+    "Warner Bros",
+    1,
+    2005
+);
+
+
+INSERT INTO Movies (
+movie_title,
+movie_rating,
+movie_studio,
+studio_id,
+movie_year
+)
+
+VALUES (
+    "The Dark Knight",
+    "PG-13",
+    "Warner Bros",
+    1,
+    2008
+);
+
+
+INSERT INTO Movies (
+movie_title,
+movie_rating,
+movie_studio,
+studio_id,
+movie_year
+)
+
+VALUES (
+    "The Dark Knight Rises",
+    "PG-13",
+    "Warner Bros",
+    1,
+    2012
+);
 
 
 -- Prints a header for the movies output
@@ -153,4 +202,3 @@ CREATE TABLE Actors (
 
 -- The SQL statement for the cast output
 -- TODO!
-Testing to ensure I save correctly -Emmett
