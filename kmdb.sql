@@ -598,6 +598,8 @@ VALUES (
 
 -- The SQL statement for the movies output
 -- TODO!
+SELECT movie_title, movie_year, movie_rating, movie_studio
+FROM Movies;
 
 -- Prints a header for the cast output
 .print ""
