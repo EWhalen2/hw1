@@ -363,9 +363,233 @@ INSERT INTO Casts (
 VALUES (
     "Batman Begins",
     1,
+    "Liam Neeson",
+    3,
+    "Ra's Al Ghul"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "Batman Begins",
+    1,
+    "Katie Holmes",
+    4,
+    "Rachel Dawes"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "Batman Begins",
+    1,
+    "Gary Oldman",
+    5,
+    "Commissioner Gordon"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "The Dark Knight",
+    2,
+    "Christian Bale",
+    1,
+    "Bruce Wayne"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "The Dark Knight",
+    2,
     "Michael Caine",
     2,
     "Alfred"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "The Dark Knight",
+    2,
+    "Gary Oldman",
+    5,
+    "Commissioner Gordon"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "The Dark Knight",
+    2,
+    "Heath Ledger",
+    6,
+    "Joker"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "The Dark Knight",
+    2,
+    "Aaron Eckhart",
+    7,
+    "Harvey Dent"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "The Dark Knight",
+    2,
+    "Maggie Gyllenhaal",
+    8,
+    "Rachel Dawes"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "The Dark Knight Rises",
+    3,
+    "Christian Bale",
+    1,
+    "Bruce Wayne"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "The Dark Knight Rises",
+    3,
+    "Michael Caine",
+    2,
+    "Alfred"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "The Dark Knight Rises",
+    3,
+    "Gary Oldman",
+    5,
+    "Commissioner Gordon"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "The Dark Knight Rises",
+    3,
+    "Tom Hardy",
+    9,
+    "Bane"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "The Dark Knight Rises",
+    3,
+    "Joseph Gordon-Levitt",
+    10,
+    "John Blake"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "The Dark Knight Rises",
+    3,
+    "Anne Hathaway",
+    11,
+    "Selina Kyle"
 );
 -- Prints a header for the movies output
 .print "Movies"
