@@ -603,6 +603,7 @@ SELECT Movies.movie_title, Movies.movie_year, Movies.movie_rating,
 Studios.movie_studio FROM Movies INNER JOIN Studios
 ON Movies.ID = Studios.movie_id;
 
+.width 21 21 21;
 -- Prints a header for the cast output
 .print ""
 .print "Top Cast"
