@@ -612,7 +612,6 @@ ON Movies.ID = Studios.movie_id;
 
 
 -- The SQL statement for the cast output
---SELECT movie_title, actor_name, character_name FROM Casts;
 SELECT Casts.movie_title, Actors.actor_name, Casts.character_name
 FROM Casts INNER JOIN Actors ON Casts.actor_id = Actors.ID; 
 
