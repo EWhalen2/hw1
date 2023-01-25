@@ -104,6 +104,7 @@
 DROP TABLE IF EXISTS Movies;
 DROP TABLE IF EXISTS Studios;
 DROP TABLE IF EXISTS Actors;
+DROP TABLE IF EXISTS Casts;
 
 
 -- Create new tables, according to your domain model
@@ -126,9 +127,16 @@ CREATE TABLE Studios (
 
 CREATE TABLE Actors (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  Actor_name TEXT,
-  movie_id INTEGER,
-  character_name TEXT
+  actor_name TEXT
+);
+
+CREATE TABLE Casts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    movie_title TEXT,
+    movie_id INTEGER,
+    actor_name TEXT,
+    actor_id INTEGER,
+    character_name TEXT
 );
 
 
@@ -198,6 +206,167 @@ VALUES (
     "Batman Begins"
 );
 
+INSERT INTO Studios (
+movie_studio,
+movie_id,
+movie_title
+)
+
+VALUES (
+    "Warner Bros",
+    1,
+    "The Dark Knight"
+);
+
+
+INSERT INTO Studios (
+movie_studio,
+movie_id,
+movie_title
+)
+
+VALUES (
+    "Warner Bros",
+    1,
+    "The Dark Knight Rises"
+);
+
+
+INSERT INTO Actors (
+actor_name
+)
+
+VALUES (
+    "Christian Bale"
+);
+
+INSERT INTO Actors (
+actor_name
+)
+
+VALUES (
+    "Michael Caine"
+);
+
+INSERT INTO Actors (
+actor_name
+)
+
+VALUES (
+    "Liam Neeson"
+);
+
+INSERT INTO Actors (
+actor_name
+)
+
+VALUES (
+    "Katie Holmes"
+);
+
+INSERT INTO Actors (
+actor_name
+)
+
+VALUES (
+    "Gary Oldman"
+);
+
+INSERT INTO Actors (
+actor_name
+)
+
+VALUES (
+    "Heath Ledger"
+);
+
+INSERT INTO Actors (
+actor_name
+)
+
+VALUES (
+    "Aaron Eckhart"
+);
+
+INSERT INTO Actors (
+actor_name
+)
+
+VALUES (
+    "Maggie Gyllenhaal"
+);
+
+INSERT INTO Actors (
+actor_name
+)
+
+VALUES (
+    "Tom Hardy"
+);
+
+INSERT INTO Actors (
+actor_name
+)
+
+VALUES (
+    "Joseph Gordon-Levitt"
+);
+
+INSERT INTO Actors (
+actor_name
+)
+
+VALUES (
+    "Anne Hathaway"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "Batman Begins",
+    1,
+    "Christian Bale",
+    1,
+    "Bruce Wayne"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "Batman Begins",
+    1,
+    "Michael Caine",
+    2,
+    "Alfred"
+);
+
+INSERT INTO Casts (
+    movie_title,
+    movie_id,
+    actor_name,
+    actor_id,
+    character_name
+)
+
+VALUES (
+    "Batman Begins",
+    1,
+    "Michael Caine",
+    2,
+    "Alfred"
+);
 -- Prints a header for the movies output
 .print "Movies"
 .print "======"
